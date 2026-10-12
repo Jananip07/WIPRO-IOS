@@ -1,0 +1,9 @@
+print("Hello World!")
+
+let name = "Janani"
+let course = "Swift"
+let year = 2026
+
+print("Hello, \(name)!")
+print("I am learning \(course).")
+print("Year: \(year)")
