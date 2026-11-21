@@ -1,0 +1,66 @@
+Swift Strings
+Basics
+code:
+let s1 = "Hello"
+let s2 = "Swift"
+print(s1 + " " + s2)
+print("\(s1), \(s2)!")
+let word = "Swift"
+print(word.count)
+print(s1.isEmpty)
+output:
+Hello Swift
+Hello, Swift!
+5
+false
+
+Substring and Case
+code:
+let text = "Swift"
+let start = text.startIndex
+let end = text.index(start, offsetBy: 3)
+let sub = text[start..<end]  // "Swi"
+print(sub)
+print(text.uppercased())
+output:
+Swi
+SWIFT
+
+Swift Strings: Concatenation
+
+code:
+let first = "Hello"
+let second = "Swift"
+// Concatenation
+print(first + " " + second)
+// Interpolation
+print("\(first), \(second)!")
+
+output:
+Hello Swift
+Hello, Swift!
+
+Python - Modify Strings
+
+code:
+a = "Hello, World!"
+print(a.upper())
+
+output:
+HELLO, WORLD!
+
+Lower Case
+code:
+a = "Hello, World!"
+print(a.lower())
+
+output:
+hello, world!
+
+Remove Whitespace
+code:
+a = " Hello, World! "
+print(a.strip())
+
+output:
+Hello, World!
